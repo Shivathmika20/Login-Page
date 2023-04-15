@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: url(https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+      
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 1.5rem;
+    
+ }
+.form h2{
+    color: white;
+    font-size: 7.5rem;
+    font-weight:normal;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+    
+}
+.form input{ 
+    width:27rem;
+    height:1.5rem;
+    padding:0.7rem;
+    margin-bottom:1rem ;
+    font-size: 1rem;
+    background-color: rgba(251, 251, 255, 0.638);
+    border: 1px solid rgba(255, 255, 255, .10);
+    border-radius: 0.8rem;
+    
+}
+.form input.submit{
+    margin-top: 1.5rem;
+    height:3rem ;
+    width: 28.3rem; 
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    color: black;
+    font-weight: bold;
+    background-color:rgba(251, 251, 255, 0.715); 
+}   
+.form .submit:hover{
+    cursor: pointer;
+    background-color: rgb(206, 1, 141);
+    color: white;
+}
+.form input:focus{
+    outline: none; 
+} 
